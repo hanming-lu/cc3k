@@ -1,0 +1,18 @@
+Bonus:
+- Extra race: SuperMan with teleport feature
+One extra race, SuperMan, is designed to be unbeatable and has the ability to teleport to any unoccupied location (except Treasure) on the map. Teleport can be used by inputing "t x y", where x and y is a position coordinate on the map.
+
+- random race generation
+User is able to experience different races in one game by choosing "rand" option for PC type. User has the chance to use random races on different levels.
+
+- read in randomly generated chamber
+User is able to use the command line option to input a map which has Chambers randomly allocated and connected.
+
+- intelligence
+When the PC is in a specific chamber, all movable enemies will chase that PC until the PC exits that chamber.
+
+- WASD (Curses Library)
+User is able to use arrow keys to control the PC instead of expliciting typing commands.
+
+- smart pointer
+All heap allocated resoures will be automatically deleted without using any explicit delete keyword and without any memory leak or dangling ptr.
